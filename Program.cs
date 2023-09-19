@@ -42,8 +42,20 @@ switch (keuze)
             i++;
         } while (i <= getal);
         break;
+
+    case '4':
+        nFaculteit = BerekenFaculteit(getal);
+        break;
 }
 
 Console.WriteLine();
 Console.WriteLine(getal + "! = " + nFaculteit);
 Console.WriteLine();
+
+
+long BerekenFaculteit(int getal)
+{
+    if (getal == 1)
+        return 1;
+    return getal * BerekenFaculteit(getal - 1);
+}
