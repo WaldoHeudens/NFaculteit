@@ -9,6 +9,7 @@ Console.WriteLine("Met welk type iteratie moet de berekening gebeuren?");
 Console.WriteLine("   1.  For-loop");
 Console.WriteLine("   2.  While-loop");
 Console.WriteLine("   3.  Do-While-loop");
+Console.WriteLine("   4.  Recursie");
 Console.Write("Geef jou keuze: ");
 char keuze = Console.ReadLine().First();
 
